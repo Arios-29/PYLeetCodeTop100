@@ -4,7 +4,7 @@ class ListNode:
         self.right = right
 
 
-class Solution:
+class SolutionNinteen:
     def removeNthFromEnd(self, head: ListNode, n: int) -> ListNode:
         pre = ListNode(-1, head)
         cur = head
