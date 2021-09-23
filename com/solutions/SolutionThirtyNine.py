@@ -6,7 +6,7 @@ class SolutionThirtyNine:
         if sum == target:
             ans.append(state)
         elif sum > target:
-            return None
+            pass
         else:
             for i in range(index, len(candidates)):
                 nextState = state.copy()
